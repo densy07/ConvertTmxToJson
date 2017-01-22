@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="hexagonal" renderorder="right-down" width="11" height="8" tilewidth="62" tileheight="62" hexsidelength="30" staggeraxis="y" staggerindex="odd" nextobjectid="1">
+ <properties>
+  <property name="Score" value="8000,10000,12000"/>
+  <property name="graphPivot" value="5,5"/>
+  <property name="mode" value="classic"/>
+  <property name="queue" value="25"/>
+  <property name="randomColors" value="3"/>
+  <property name="version" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="bubbles" tilewidth="188" tileheight="186">
+  <tile id="0">
+   <properties>
+    <property name="color" value="red"/>
+   </properties>
+   <image width="58" height="58" source="images/bubble_red.png"/>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="color" value="green"/>
+   </properties>
+   <image width="58" height="58" source="images/bubble_green.png"/>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="color" value="blue"/>
+   </properties>
+   <image width="58" height="58" source="images/bubble_blue.png"/>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="color" value="yellow"/>
+   </properties>
+   <image width="58" height="58" source="images/bubble_yellow.png"/>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="color" value="purple"/>
+   </properties>
+   <image width="58" height="58" source="images/bubble_purple.png"/>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="color" value="baseRandom"/>
+   </properties>
+   <image width="76" height="76" source="images/bubble_greenR.png"/>
+  </tile>
+  <tile id="6">
+   <image width="58" height="65" source="images/bubble_ice.png"/>
+  </tile>
+  <tile id="7">
+   <image width="58" height="58" source="images/bubble_color.png"/>
+  </tile>
+  <tile id="8">
+   <image width="58" height="58" source="images/bubble_cover.png"/>
+  </tile>
+  <tile id="9">
+   <image width="62" height="62" source="images/bubble_air.png"/>
+  </tile>
+  <tile id="10">
+   <image width="58" height="58" source="images/bubble_brick.png"/>
+  </tile>
+  <tile id="11">
+   <image width="58" height="58" source="images/bubble_explode.png"/>
+  </tile>
+  <tile id="12">
+   <image width="58" height="58" source="images/bubble_fire.png"/>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="color" value="baseRandom"/>
+   </properties>
+   <image width="174" height="160" source="images/hitModeShieldHighlight.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="117" source="images/bubbleSaveGroupTriangleLight.png"/>
+  </tile>
+  <tile id="15">
+   <image width="188" height="172" source="images/bubbleSaveGroupPentagon.png"/>
+  </tile>
+  <tile id="16">
+   <image width="76" height="72" source="images/bubble_leaf.png"/>
+  </tile>
+  <tile id="17">
+   <image width="73" height="85" source="images/bubble_balloon.png"/>
+  </tile>
+  <tile id="18">
+   <image width="62" height="62" source="images/bubble_rainbow.png"/>
+  </tile>
+  <tile id="19">
+   <image width="58" height="58" source="images/bubble_wood.png"/>
+  </tile>
+  <tile id="20">
+   <image width="61" height="61" source="images/bubble_blackHole.png"/>
+  </tile>
+  <tile id="21">
+   <image width="58" height="58" source="images/bubble_lighning.png"/>
+  </tile>
+  <tile id="22">
+   <image width="62" height="62" source="images/bubble_extraBubbleFall.png"/>
+  </tile>
+  <tile id="23">
+   <image width="64" height="62" source="images/leaf bubble.png"/>
+  </tile>
+  <tile id="24">
+   <image width="65" height="65" source="images/CannibalPlant bubble.png"/>
+  </tile>
+  <tile id="25">
+   <image width="74" height="74" source="images/bubble_windmill.png"/>
+  </tile>
+ </tileset>
+ <layer name="Lower" width="11" height="4">
+  <data>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="17"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+  </data>
+ </layer>
+ <layer name="Middle" width="11" height="4">
+  <data>
+   <tile gid="0"/>
+   <tile gid="3"/>
+   <tile gid="4"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="3"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="4"/>
+   <tile gid="3"/>
+   <tile gid="0"/>
+   <tile gid="3"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="1"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="1"/>
+   <tile gid="4"/>
+   <tile gid="4"/>
+   <tile gid="3"/>
+   <tile gid="0"/>
+   <tile gid="3"/>
+   <tile gid="4"/>
+   <tile gid="1"/>
+   <tile gid="4"/>
+   <tile gid="3"/>
+   <tile gid="1"/>
+   <tile gid="3"/>
+   <tile gid="4"/>
+   <tile gid="1"/>
+   <tile gid="4"/>
+   <tile gid="3"/>
+   <tile gid="0"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="0"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="0"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+  </data>
+ </layer>
+ <layer name="Up" width="11" height="4">
+  <data>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+  </data>
+ </layer>
+</map>
